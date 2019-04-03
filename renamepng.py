@@ -39,4 +39,4 @@ for f in data:
     if f in fileNames.keys():
         os.rename(path+'/'+f+'.png', path+'/'+fileNames[f]+'.png')
     if f not in fileNames.keys():
-        os.rename(path+'/'+f+'.png', path+'/'+f+'-'+fileNameNotFound+'.png')
+        os.rename(path+'/'+f+'.png', path+'/'+fileNameNotFound+'-'+f+'.png')
